@@ -10,7 +10,7 @@ Quick Project Management is a visual project management tool designed to empower
 Front-end
 
 ## Deployed App
-- Frontend:
+- Frontend:"https://6640bc2b82f5fec991049dde--stellular-tulumba-ca2824.netlify.app/"
 
 ## Directory Structure
 - quick-project-management/
