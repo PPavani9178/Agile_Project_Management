@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.nav-link {
+    color: gray;
+    font-size: 16px;
+    transition: color 0.3s, font-size 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: blue;
+    font-size: 18px;
+  }

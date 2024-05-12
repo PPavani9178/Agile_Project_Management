@@ -23,20 +23,20 @@ const Footer = () => {
       >
         <Box flex="1">
           <Stack spacing="2">
-            <Text fontSize="sm">
+            <Text  fontSize={{ base: 'xl', md: '2xl' }}>
               Try Premium free for 14 days
             </Text>
-            <Text fontSize="sm">
-              See your work in a whole new way with Trello views.
+            <Text fontSize={{ base: 'xl', md: '2xl' }}>
+              See your work in a whole new way with Quick Project Management views.
             </Text>
           </Stack>
         </Box>
         <Box flex="1">
           <Stack direction="column" spacing="2">
-            <Link fontSize="sm">About Trello</Link>
-            <Link fontSize="sm">Jobs</Link>
-            <Link fontSize="sm">Apps</Link>
-            <Link fontSize="sm">Contact us</Link>
+            <Link fontSize={{ base: 'xl', md: '2xl' }}>About </Link>
+            <Link fontSize={{ base: 'xl', md: '2xl' }}>Jobs</Link>
+            <Link fontSize={{ base: 'xl', md: '2xl' }}>Apps</Link>
+            <Link fontSize={{ base: 'xl', md: '2xl' }}>Contact us</Link>
           </Stack>
         </Box>
         <Box flex="1">
@@ -46,10 +46,10 @@ const Footer = () => {
               <Icon as={FaTwitter} boxSize="6" mr="2" />
               <Icon as={FaLinkedin} boxSize="6" />
             </Flex>
-            <Text fontSize="sm">Čeština</Text>
-            <Text fontSize="sm">Privacy Policy</Text>
-            <Text fontSize="sm">Terms</Text>
-            <Text fontSize="sm">Copyright © {new Date().getFullYear()} Atlassian</Text>
+            <Text fontSize={{ base: 'xl', md: '2xl' }}>Čeština</Text>
+            <Text fontSize={{ base: 'xl', md: '2xl' }}>Privacy Policy</Text>
+            <Text fontSize={{ base: 'xl', md: '2xl' }}>Terms</Text>
+            <Text fontSize={{ base: 'xl', md: '2xl' }}>Copyright © {new Date().getFullYear()} Atlassian</Text>
           </Stack>
         </Box>
       </Stack>

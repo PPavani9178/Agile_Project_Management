@@ -32,14 +32,14 @@ const Navbar = () => {
             </svg>
           </button>
         </div>
-        <div className={`md:flex ${isMenuOpen ? 'flex' : 'hidden'}`}>
-          <div className="md:flex gap-10 font-sans p-2">
-            <Link to="/">Home</Link>
-            <Link to="/workshop">Workshops</Link>
-            <Link to="/solutions">Solutions</Link>
-            <Link to="/newBoard">Board</Link>
-            <Link to="/signup">Signup</Link>
-            <Link to="/about">About</Link>
+        <div className={`md:flex ${isMenuOpen ? 'flex-col' : 'hidden'} md:flex-row`}>
+          <div className="md:flex gap-12 font-sans p-2">
+            <Link to="/" className="nav-link">Home</Link>
+            <Link to="/workshop" className="nav-link">Workshops</Link>
+            <Link to="/solutions" className="nav-link">Solutions</Link>
+            <Link to="/newBoard" className="nav-link">Board</Link>
+            <Link to="/signup" className="nav-link">Signup</Link>
+            <Link to="/about" className="nav-link">About</Link>
           </div>
         </div>
       </div>
