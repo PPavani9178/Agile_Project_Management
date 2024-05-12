@@ -2,6 +2,8 @@
 
 ## Introduction
 Quick Project Management is a visual project management tool designed to empower teams to efficiently manage projects and tasks. With customizable boards, lists, and cards, teams can organize their workflow according to their needs and track progress in real-time.
+
+
 <img width="949" alt="Screenshot 2024-05-12 181129" src="https://github.com/PPavani9178/Agile_Project_Management/assets/154861374/092a51a2-260c-4ff4-a2f3-025bc001dfc2">
 
 ## Project Type
